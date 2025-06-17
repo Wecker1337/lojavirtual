@@ -1,0 +1,23 @@
+POST http://127.0.0.1:8000/api/loginapi
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "weckergabi@gmail.com",
+    "password": "12345678"
+}
+###
+    GET http://127.0.0.1:8000/api/products
+    Authorization: Bearer {}
+    Accept: application/json
+
+###
+
+    POST http://127.0.0.1:8000/api/register
+    Content-Type: application/json
+    Accept: application/json
+    {
+        'name': "usuario api",
+        'email': "usu@api.com",
+        'password': 123456
+    }
